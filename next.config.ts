@@ -9,6 +9,11 @@ const nextConfig: NextConfig = {
         hostname: "csyxkpbavpcrhwqhcpyy.supabase.co",
         pathname: "/storage/v1/object/public/assets/property-challenge/**",
       },
+      {
+        protocol: "https",
+        hostname: "www.themealdb.com",
+        pathname: "/images/**",
+      },
     ],
   },
 };
