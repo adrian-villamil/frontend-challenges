@@ -31,7 +31,7 @@ export const RecipeCard = ({ recipe }: Props) => {
         width={700}
         height={700}
         loading="lazy"
-        className="aspect-3/1 md:aspect-73/40 lg:aspect-square rounded-md object-cover"
+        className="aspect-109/52 lg:aspect-161/108 rounded-md object-cover"
       />
 
       <h4 className="text-[#E5E7EB]">{recipe.strMeal}</h4>

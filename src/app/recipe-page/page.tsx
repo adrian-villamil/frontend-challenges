@@ -40,7 +40,7 @@ export default async function RecipePage(props: Props) {
     <main className={clsx(outfit.className, "min-h-screen bg-[#0E1325]")}>
       <HeroSection />
 
-      <div className="flex flex-col md:flex-row gap-8 px-8 pb-8 lg:px-18 lg:pb-18">
+      <div className="flex flex-col md:flex-row gap-8 px-3 pb-3 md:px-8 md:pb-8 lg:px-18 lg:pb-18">
         <Sidebar categories={categoriesList.categories} />
 
         <div className="flex-1 space-y-10">
