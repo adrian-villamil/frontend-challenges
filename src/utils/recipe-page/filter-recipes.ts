@@ -24,5 +24,7 @@ export const FilterRecipes = (
 
   if (recipes.length === 0) return null;
 
+  if (recipes.length > 6) return recipes.slice(0, 6);
+
   return recipes;
 };
